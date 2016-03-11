@@ -12,6 +12,8 @@ public class VerifyTitle {
 	{
 		// Naren changes
 		WebDriver driver=new FirefoxDriver();
+		
+		// MUkesh Changes
 		driver.get("http://www.learn-automation.com");
 		Assert.assertTrue(driver.getTitle().contains("Selenium"));
 	}
